@@ -42,11 +42,8 @@ public class Program4_3 {
         Thread2 t2=new Thread2();
         Thread3 t3=new Thread3();
         t1.start();
-        // Thread1.sleep(100);
         t2.start();
-        // Thread2.sleep(200);
         t3.start();
-        // Thread3.sleep(300);
 
     }
 }
