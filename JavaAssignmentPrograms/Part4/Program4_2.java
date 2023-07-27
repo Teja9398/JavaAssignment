@@ -4,7 +4,7 @@ public class Program4_2 {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Factorial");
         frame.setLayout(new FlowLayout());
-        frame.setBounds(500,150,400,600);
+        frame.setBounds(500,300,400,175);
         frame.setDefaultCloseOperation(3);
 
         frame.add(new JLabel("Enter a number"));
@@ -13,6 +13,7 @@ public class Program4_2 {
         
         frame.add(new JLabel("Factorial of the number "));
         JTextField tf2=new JTextField(20);
+        tf2.setEditable(false);
         frame.add(tf2);
 
         JButton b1=new JButton("Calculate");
