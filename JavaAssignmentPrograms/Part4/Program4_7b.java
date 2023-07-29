@@ -38,18 +38,15 @@ public class Program4_7b {
         
         
         canvas.addMouseListener(new MouseAdapter() {
-           
             public void mousePressed(MouseEvent e){
                 x=e.getX();y=e.getY();
                 x2=e.getX();y2=e.getY();
                 canvas.repaint();
                 System.out.println(x+" "+y);
             } 
-           
         });
 
         canvas.addMouseMotionListener(new MouseMotionAdapter() {
-            
             public void mouseDragged(MouseEvent me){
                 x2=me.getX();y2=me.getY();
                 System.out.println(x2 +" "+ y2);
