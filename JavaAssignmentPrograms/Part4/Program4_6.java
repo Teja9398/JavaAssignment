@@ -26,7 +26,7 @@ public class Program4_6 {
         frame.add(result);
 
         btn.addActionListener(e->{
-            JDialog dialog=new JDialog(frame, "Exception!!!", null, null);
+            JDialog dialog=new JDialog(frame, "Exception!!!");
             dialog.setBounds(500,250,200,200);
             try{
                 num1=Integer.parseInt(tf1.getText());
