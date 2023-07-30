@@ -13,7 +13,7 @@ class Buffer{
             System.out.println("Buffer is full,waiting to consume...");
             try{
                 wait();
-            }catch(InterruptedException i){}
+            }catch(InterruptedException ie){ie.getMessage();}
         }
         i++;
         System.out.println("produced: "+i);
@@ -24,12 +24,11 @@ class Buffer{
             System.out.println("Buffer is empty, waiting to produce...");
             try {
                 wait();
-            } catch (InterruptedException e) {}
+            } catch (InterruptedException ie) {ie.getMessage();}
         }
         System.out.println("consumed: "+i);
         i--;
         notify();
-
     }
 }
 
@@ -67,8 +66,8 @@ public class Program4_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the size of the buffer :");
-        int s= sc.nextInt();
-        Buffer b=new Buffer(s);
+        int n= sc.nextInt();
+        Buffer b=new Buffer(n);
         Producer p=new Producer(b);
         Consumer c=new Consumer(b);
         p.start();
