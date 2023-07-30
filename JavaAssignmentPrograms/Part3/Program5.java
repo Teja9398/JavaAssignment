@@ -24,7 +24,7 @@ public class Program5 {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        LinkedList<String> list=new LinkedList();
+        LinkedList<String> list=new LinkedList<>();
         System.out.println("enter the colors in a single line: ");
         String s=sc.nextLine();
         StringTokenizer st=new StringTokenizer(s);
