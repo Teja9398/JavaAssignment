@@ -7,9 +7,6 @@ public class Program4_7b {
     static int x1,y1,x2,y2;
     static String shape="";
     
-    public void PaintComponent(Graphics g){
-        g.drawLine(x1, y1, x2, y2);
-    }
     public static void main(String[] args) {
         JFrame frame =new JFrame("Draw a Shape");
         frame.setBounds(400,150,720,650);
