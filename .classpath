@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Part1&amp;part2/|Part1&amp;part2/|Part3/|Part4/|Part5/" kind="src" path="JavaAssignmentPrograms"/>
+	<classpathentry kind="src" path="JavaAssignmentPrograms/Part1&amp;part2"/>
+	<classpathentry kind="src" path="JavaAssignmentPrograms/Part3"/>
+	<classpathentry kind="src" path="JavaAssignmentPrograms/Part4"/>
+	<classpathentry kind="src" path="Part5"/>
+	<classpathentry kind="src" path="JavaAssignmentPrograms/Part5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Dharma teja/Desktop/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

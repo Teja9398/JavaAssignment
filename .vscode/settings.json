@@ -1,4 +1,13 @@
 {
     "editor.inlineSuggest.enabled": false,
-    "editor.fontFamily": "Cascadia mono "
+    "editor.fontFamily": "Cascadia mono ",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-j-8.0.33.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\Dharma teja\\Desktop\\mysql-connector-j-8.1.0\\mysql-connector-j-8.1.0.jar"
+        ]
+    }
 }
