@@ -21,7 +21,7 @@ class Program5_2 extends JFrame{
         setVisible(true);
     }
 
-    class MouseAction extends MouseAdapter{
+    private class MouseAction extends MouseAdapter{
         public void mouseClicked(MouseEvent me){
             tf.setText("Mouse Clicked");
         }
@@ -38,7 +38,7 @@ class Program5_2 extends JFrame{
             tf.setText("Mouse Exited");
         }
     }
-    class MouseAction1 extends MouseAdapter{
+    class MouseAction1 extends MouseMotionAdapter{
         public void mouseDragged(MouseEvent me){
             tf.setText("Mouse DRAGGED - ("+me.getX()+","+ me.getY()+")");
         }
